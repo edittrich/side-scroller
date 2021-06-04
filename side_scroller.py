@@ -16,7 +16,7 @@ pygame.init()
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
-pygame.mixer.music.load("resources/background.mp3")
+pygame.mixer.music.load("resources/background.ogg")
 pygame.mixer.music.play(loops=-1)
 
 move_up_sound = pygame.mixer.Sound("resources/rising_putter.ogg")
